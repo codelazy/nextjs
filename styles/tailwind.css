@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.header-container {
+  justify-content: space-between;
+}
+.header-links {
+  align-items: center;
+}
+
+.bg-orange-500 {
+  background: #FF7A00;
+}
+
+.bg-orange-700 {
+  background: #FF912C;
+}
+
+.font-color-orange {
+  color: #FF7A00;
+}
